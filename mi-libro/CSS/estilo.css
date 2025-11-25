@@ -1,6 +1,4 @@
-a{
-    text-decoration: none
-}
+
 h1,h2{
     display: flex;
     text-align: center;
@@ -9,6 +7,7 @@ h1,h2{
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
+  color: #D4AF37;
    
 }       
 p{
@@ -28,12 +27,13 @@ ul{
 
 }
 div{
-    margin: 50px;
+    margin: 0px 200px 0px 200px;
 }
 footer{
     display: flex;
     justify-content: end;
-    margin: 45px;
+    margin-right: 200px;
+    margin-top: 50px;
 
 }
 .titulo {
@@ -41,12 +41,13 @@ footer{
   justify-content: center;
   justify-items: center;
 }
+
 a{
   text-decoration: none;
-  color:rgb(147, 122, 90);
+  color:#E6DCCF;
 }
 body{
-  background-color: rgb(248, 207, 157);
+  background-color: #3E3228;
 }
 .cap2imag {
   display: flex;
@@ -54,4 +55,12 @@ body{
   float: right;
   width: 200px;
   height: 200px;
+}
+
+p{
+  color: #E6DCCF;
+}
+
+h3{
+  color: #D4AF37;
 }
